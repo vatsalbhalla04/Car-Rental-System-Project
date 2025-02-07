@@ -64,10 +64,12 @@ class Customer {
 }
 
 class Rental {
+    // Making the obj of class Car and class Customer in the Rental Class
     private Car car;
     private Customer customer;
     private int days;
 
+    // Taking the Obj As An Argument in the Rental Class Constructor
     public Rental(Car car, Customer customer, int days) {
         this.car = car;
         this.customer = customer;
