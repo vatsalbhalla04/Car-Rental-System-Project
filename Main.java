@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 class Car {
+    // Making the Attributes for Class Car 
     private String carId;
     private String brand;
     private String model;
